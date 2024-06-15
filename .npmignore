@@ -1,0 +1,8 @@
+Database
+node_modules
+src
+package-lock.json
+tsconfig.json
+.gitignore
+.npmignore
+.prettierrc
