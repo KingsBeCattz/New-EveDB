@@ -9,7 +9,7 @@ A simple but complete database, with the use of tables and backup copies using J
 # Instalation
 You can install EveDB using Bun or some package manager, the following command is in case of Bun:
 ```sh
-npm i @kingbecats/evedb
+npm i @kbc-studios/evedb
 ```
 # Getting started
 The use of the package is divided into two, the server and the client, which is simple to use is the server because everything is done automatically and you just configure it, however the other is the client is the one that interacts with the server, and is the one that is configured quickly but has many ways to use, first we will see the server
@@ -17,7 +17,7 @@ The use of the package is divided into two, the server and the client, which is 
 - # Server
   ```ts
   // ./src/server.ts/
-  import { DatabaseServer } from "@kingbecats/evedb";
+  import { DatabaseServer } from "@kbc-studios/evedb";
 
   const AUTHORIZATION = "wbHt2MrH.1M6F4k6Q.gKsXA80F.L8oFD3W8";
   //Note: The code above you can set it as you like, if you want a long and random code I recommend you to use the genAuthCodef unction that is in the same package, import it, run it and copy the code it gave you.
@@ -39,7 +39,7 @@ The use of the package is divided into two, the server and the client, which is 
 - # Client
   ```ts
   // ./src/index.ts
-  import { DatabaseServer } from "@kingbecats/evedb";
+  import { DatabaseServer } from "@kbc-studios/evedb";
 
   const client = new DatabaseClient("http://localhost:3000", {
 	authorization: AUTHORIZATION,
